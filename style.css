@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+body{   
+   background: #F3F3F3;
+   font-family: "Montserrat", Helvetica; 
+}  
+input{
+  width: 230px;
+  box-sizing: border-box;
+  border:none;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: #E8F0FE;
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+  padding: 10px 10px 10px 10px;
+}
+input:focus{
+  width: 230px;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: #d9e5fa;
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+  padding: 10px 10px 10px 10px;
+}
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+#btn{  
+	width: 120px;
+	height: 40px;
+    color: #fff;  
+    background: linear-gradient(to top left, #2b81b3, #2ab6e5); 
+    padding: 7px;  
+} 
+#btn:hover{  
+	width: 120px;
+	height: 40px;
+    color: #fff;  
+    background: linear-gradient(to bottom right, #2b81b3, #2ab6e5);
+    padding: 7px;  
+} 
+
+.hatter{
+	background-color:#FFF;
+	width: 30%;
+	height: auto;
+	margin: auto;
+	margin-top:100px;
+	padding-top:50px;
+	padding-bottom:50px;
+	box-shadow: 0px 0px 11px 0px rgba(0, 0, 0, 0.2);
+	border-radius: 20px;
+}
+a{
+	text-decoration:none;
+}
+.gomb{
+	background: linear-gradient(to top left, #39b385, #9be15d);
+    padding: 1.5%;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+	font-family: "Montserrat", Helvetica;
+}
+.gomb:hover{
+	background: linear-gradient(to bottom right, #39b385, #9be15d);
+}
+hr {
+	margin-top:20px;
+	margin-bottom:20px;
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
