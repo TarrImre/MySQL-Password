@@ -46,8 +46,8 @@
 			echo '<img src="https://icon-library.com/images/loading-icon-transparent-background/loading-icon-transparent-background-12.jpg" width="32px" height="32px"/>';
 			echo "Ilyen felhasználó nem létezik!";
 			echo "</center>";
-			echo("<script>setTimeout(function(){location.href='https://toxy.hu/Webesmegoldasok/login/'} , 1000);   </script>");
-			//echo '<br/><a href="https://toxy.hu/Webesmegoldasok/login/">Vissza!</a>';
+			echo("<script>setTimeout(function(){location.href='https://toxy.hu/webesmegoldasok/login/'} , 1000);   </script>");
+			//echo '<br/><a href="https://toxy.hu/webesmegoldasok/login/">Vissza!</a>';
 			$error = 1;
 			exit;
 		}
@@ -77,7 +77,7 @@
 						echo $row['color'];
 						echo '<div class="ball" style="background-color: #e36d6d;"></div>';
 					}
-					echo '<br/><a href="https://toxy.hu/Webesmegoldasok/login/">Kijelentkezés</a>';
+					echo '<br/><a href="https://toxy.hu/webesmegoldasok/login/">Kijelentkezés</a>';
 				}
 				if (isset($_POST['user']) && $_POST['user'] == "arpi40@freemail.hu") {
 					echo "Üdvözöllek " . $_POST['user'] . "!";
@@ -86,7 +86,7 @@
 						echo $row['color'];
 						echo '<div class="ball" style="background-color: #79db84;"></div>';
 					}
-					echo '<br/><a href="https://toxy.hu/Webesmegoldasok/login/">Kijelentkezés</a>';
+					echo '<br/><a href="https://toxy.hu/webesmegoldasok/login/">Kijelentkezés</a>';
 				}
 				if (isset($_POST['user']) && $_POST['user'] == "zsanettka@hotmail.com") {
 					echo "Üdvözöllek " . $_POST['user'] . "!";
@@ -95,7 +95,7 @@
 						echo $row['color'];
 						echo '<div class="ball" style="background-color: #e3d96d;"></div>';
 					}
-					echo '<br/><a href="https://toxy.hu/Webesmegoldasok/login/">Kijelentkezés</a>';
+					echo '<br/><a href="https://toxy.hu/webesmegoldasok/login/">Kijelentkezés</a>';
 				}
 				if (isset($_POST['user']) && $_POST['user'] == "hatizsak@protonmail.com") {
 					echo "Üdvözöllek " . $_POST['user'] . "!";
@@ -104,7 +104,7 @@
 						echo $row['color'];
 						echo '<div class="ball" style="background-color: #6da8e3;"></div>';
 					}
-					echo '<br/><a href="https://toxy.hu/Webesmegoldasok/login/">Kijelentkezés</a>';
+					echo '<br/><a href="https://toxy.hu/webesmegoldasok/login/">Kijelentkezés</a>';
 				}
 				if (isset($_POST['user']) && $_POST['user'] == "terpeszterez@citromail.hu") {
 					echo "Üdvözöllek " . $_POST['user'] . "!";
@@ -113,7 +113,7 @@
 						echo $row['color'];
 						echo '<div class="ball" style="background-color: black;"></div>';
 					}
-					echo '<br/><a href="https://toxy.hu/Webesmegoldasok/login/">Kijelentkezés</a>';
+					echo '<br/><a href="https://toxy.hu/webesmegoldasok/login/">Kijelentkezés</a>';
 				}
 				if (isset($_POST['user']) && $_POST['user'] == "nagysanyi@gmail.hu") {
 					echo "Üdvözöllek " . $_POST['user'] . "!";
@@ -122,7 +122,7 @@
 						echo $row['color'];
 						echo '<div class="ball" style="background-color: white;"></div>';
 					}
-					echo '<br/><a href="https://toxy.hu/Webesmegoldasok/login/" >Kijelentkezés</a>';
+					echo '<br/><a href="https://toxy.hu/webesmegoldasok/login/" >Kijelentkezés</a>';
 				}
 				echo "</div></center>";
 

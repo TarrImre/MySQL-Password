@@ -30,7 +30,7 @@
 			<br/><b>Tarr Imre<br/>IGXWVJ</b>
 			<br/>
 			<br/>
-			<a class="gomb papir-hatter" href="https://toxy.hu/Webesmegoldasok/">Első projekt</a>
+			<a class="gomb papir-hatter" href="https://toxy.hu/webesmegoldasok/kopapirollo/">Első projekt</a>
 			</p>
         </form>  
 		</center>
